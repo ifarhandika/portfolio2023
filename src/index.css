@@ -5,5 +5,11 @@
 @tailwind utilities;
 
 :root {
-    background-color: black;
+  background-color: black;
+}
+
+@layer components {
+  .social_media_class {
+    @apply flex items-center mb-1 hover:text-gray-800 transition duration-300;
+  }
 }

@@ -3,9 +3,9 @@ import { motion } from "framer-motion"
 import Introduction from "./pages/Introduction"
 import Header from "./components/Header"
 import Pages from "./components/Pages"
+import Menu from "./components/Menu"
 
 import "./App.css"
-import Menu from "./components/Menu"
 
 function App() {
   return (
