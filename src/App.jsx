@@ -20,6 +20,7 @@ function App() {
             <Header />
             <div className="mt-14 grid grid-cols-2">
               <Menu />
+
               <Pages />
             </div>
           </div>

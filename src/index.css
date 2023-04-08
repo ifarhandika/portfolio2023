@@ -12,4 +12,13 @@
   .social_media_class {
     @apply flex items-center mb-1 hover:text-gray-800 transition duration-300;
   }
+
+  .scrollbar-hide::-webkit-scrollbar {
+    display: none;
+  }
+
+  .scrollbar-hide {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
 }
