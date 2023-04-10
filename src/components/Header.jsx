@@ -11,7 +11,7 @@ const Header = () => {
             Hafizh Farhandika N.
           </h1>
           <a
-            href="../../assets/Resume (Hafizh Farhandika Nurwirasaputra).pdf"
+            href="./assets/Resume (Hafizh Farhandika Nurwirasaputra).pdf"
             target="_blank">
             <div className="flex justify-center items-center bg-white px-3 py-1 text-black hover:bg-gray-400 hover:text-white transition">
               <span className="mr-1">resume</span>
