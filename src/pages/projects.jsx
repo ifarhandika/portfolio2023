@@ -5,12 +5,13 @@ import CardProject from "../components/CardProject"
 
 const projects = () => {
   return (
-    <div className="h-[400px] overflow-auto scrollbar-hide">
+    <div className="overflow-auto scrollbar-hide p-3 h-[250px] mt-3 md:h-[380px]">
       {ListProjects.map((project, idx) => {
         let key = idx
         let projectName = project.projectName
         let techStack = project.techStack
         let description = project.description
+        let url = project.url
 
         return (
           <>
@@ -19,6 +20,7 @@ const projects = () => {
               projectName={projectName}
               techStack={techStack}
               description={description}
+              url={url}
             />
           </>
         )

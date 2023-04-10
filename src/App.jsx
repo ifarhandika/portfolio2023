@@ -18,9 +18,8 @@ function App() {
           transition={{ duration: 0.5, delay: 1.75 }}>
           <div className="text-white">
             <Header />
-            <div className="mt-14 grid grid-cols-2">
+            <div className="mt-14 grid sm:grid-cols-1 md:grid-cols-2">
               <Menu />
-
               <Pages />
             </div>
           </div>
