@@ -6,16 +6,11 @@ export const PageOptions = [
   },
   {
     id: 2,
-    name: "Info",
-    url: "/info",
-  },
-  {
-    id: 3,
     name: "Projects",
     url: "/projects",
   },
   {
-    id: 4,
+    id: 3,
     name: "Contact",
     url: "/contact",
   },

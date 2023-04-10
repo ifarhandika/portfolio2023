@@ -10,9 +10,10 @@ const Home = () => {
       transition={{ duration: 0.75 }}>
       Born in Jakarta 1998, my interest in web development started back in 2020
       after graduating college where my curiosity on how the webs are built.
-      Fast-forward to today, I'm currently working in PT. Astra International
-      Tbk. as a Full Stack Developer, where I'm contributing in some of their
-      project, Belibareng and Astra E-Procurement.
+      Fast-forward to today, I'm currently working for PT Astra Graphia Information
+      Technology, placement in PT Astra International Tbk. as a Full Stack
+      Developer, where I'm contributing in some of their project, Belibareng and
+      Astra E-Procurement.
     </motion.div>
   )
 }

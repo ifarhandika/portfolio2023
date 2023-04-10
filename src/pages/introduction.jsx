@@ -4,7 +4,7 @@ import { motion } from "framer-motion"
 
 const introduction = () => {
   return (
-    <div className="h-screen w-screen absolute font-inconsolata text-4xl flex justify-center items-center">
+    <div className="h-screen w-screen absolute font-inconsolata text-4xl flex justify-center items-center text-white">
       <motion.span
         initial={{ opacity: 1 }}
         animate={{ opacity: 0 }}

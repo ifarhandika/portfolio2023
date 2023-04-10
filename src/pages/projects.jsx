@@ -1,11 +1,16 @@
 import React from "react"
+import { motion } from "framer-motion"
 
 import { ListProjects } from "../components/ListProjects"
 import CardProject from "../components/CardProject"
 
 const projects = () => {
   return (
-    <div className="overflow-auto scrollbar-hide p-3 h-[250px] mt-3 md:h-[380px]">
+    <motion.div
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      transition={{ duration: 0.75 }}
+      className="overflow-auto scrollbar-hide p-3 h-[250px] mt-3 md:h-[380px]">
       {ListProjects.map((project, idx) => {
         let key = idx
         let projectName = project.projectName
@@ -25,7 +30,7 @@ const projects = () => {
           </>
         )
       })}
-    </div>
+    </motion.div>
   )
 }
 

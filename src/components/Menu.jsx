@@ -14,18 +14,15 @@ const Menu = () => {
           let pageName = page.name
           let pageURL = page.url
           return (
-            <>
-              <li className="my-2">
-                <NavLink
-                  key={page.id}
-                  className={({ isActive }) =>
-                    isActive ? activeNavLink : inactiveNavLink
-                  }
-                  to={pageURL}>
-                  {pageName}
-                </NavLink>
-              </li>
-            </>
+            <li className="my-2" key={page.id}>
+              <NavLink
+                className={({ isActive }) =>
+                  isActive ? activeNavLink : inactiveNavLink
+                }
+                to={pageURL}>
+                {pageName}
+              </NavLink>
+            </li>
           )
         })}
       </ul>
